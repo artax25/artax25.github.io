@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    background-image: url(../img/logo_fg4.png);
+    font-family: "Ubuntu Mono", sans-serif;
+
+}
+
+.superb {
+    font-style: italic;
+    font-weight: 600;
+    color: azure;
+  }
+  

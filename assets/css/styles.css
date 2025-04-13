@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: "Ubuntu Mono", sans-serif;
+  /* color:azure; */
+  background-image: url(../img/logo_fg4.png);
+  background-color:black;
+  
+}
+
+/* Hero Section */
+
+.superb {
+  font-style: italic;
+  font-weight: 600;
+  color: azure;
+}
+
+#Hero-Section {
+  /* background-image: url("../img/logo_fg4.png"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  color: dimgray;
+}
+
+
+/* Mis trabajos */
+
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bgandtxtcolor {
+  background-color: transparent;
+  color: azure;
+}
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: azure;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}
+
+.footer {
+  background-image: url(../img/logo_fg4.png);
+}
